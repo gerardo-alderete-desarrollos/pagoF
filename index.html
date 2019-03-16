@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="resources/css/fontello.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/assets/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/barraProgreso.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/stickyFooter.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/general.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <section>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-xs-12">
+                    <a href="#" class="logo">
+                        <img src="resources/images/logotipo-header.png" alt="logoPagofon" class="w-50">
+                    </a>
+                </div>
+                <div class="col-6 text-right secc-hd-2">
+                    <p>Prueba</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- login -->
+        <section class="content-login">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-xs-12 text-center">
+                    <form>
+                        <div class="form-group pb-3">
+                            <label class="col-sm-12 control-label titulos">Usuario</label>
+                            <div>
+                                <input type="text" class="form-control" name="username"
+                                    placeholder="Nombre de usuario" />
+                            </div>
+                        </div>
+
+                        <div class="form-group pb-3">
+                            <label class="col-sm-12 control-label titulos">Contrase&#241;a</label>
+                            <div>
+                                <input type="password" class="form-control" name="password"
+                                    placeholder="Contrase&#241;a" />
+                            </div>
+                        </div>
+
+                        <!-- captcha -->
+                        <div class="form-group row justify-content-center pb-3">
+                            <div class="g-recaptcha" data-sitekey="6LfCPoUUAAAAALZVoSIe5vf3Rt-WVowfab3ZzDGy"></div>
+                            <div class="form-group has-feedback has-error">
+                                <small class="help-block error-captcha" data-bv-result="INVALID"
+                                    style="display:none">Requerido, no vac&iacute;o</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="button" id="btnIniciarSesion" value="Iniciar Sesi&oacute;n" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- fin login -->
+    </div>
+    
+
+</body>
+<!-- footer -->
+<footer class="footer">
+        <div class="container">
+                <div class="row justify-content-end">
+                        <!-- <p>S&iacute;guenos</p> -->
+                        <p>footer</p>
+                </div>
+            <!-- <div class="row justify-content-end">
+                
+                <p>
+                    <a href='https://www.facebook.com/PagoFon-1347559428631548' target='_blank'><i class='pf-icon icon-facebook'></i></a>
+                    <a href='https://twitter.com/pagofon' target='_blank'><i class='pf-icon icon-twitter'></i></a>
+                    <a href='https://www.instagram.com/pagofon/' target='_blank'><i class='pf-icon icon-instagram'></i></a>
+                    <a href='https://www.youtube.com/channel/UC8-aYG2Vi5Awf3MGCyshfyA' target='_blank'><i class='pf-icon icon-youtube'></i></a>
+                </p>
+            </div> -->
+        </div>
+    </footer>
+<script src="resources/assets/jquery/jquery_1.12.4.js"></script>
+<script src="resources/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="resources/js/barraProgreso.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</html>

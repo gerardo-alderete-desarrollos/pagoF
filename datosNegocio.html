@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Datos del Negocio</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/fontello.css" />
+    <link rel="stylesheet" type="text/css" href="resources/assets/bValidator/css/bootstrapValidator.css" />
+    <link rel="stylesheet" type="text/css" href="resources/assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/barraProgreso.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/stickyFooter.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/general.css" />
+    <link rel="stylesheet" href="resources/assets/multiple-select/multiple-select.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/datosNegocio.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <section>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-xs-12">
+                    <a href="#" class="logo">
+                        <img src="resources/images/logotipo-header.png" alt="logoPagofon" class="w-50">
+                    </a>
+                </div>
+                <div class="col-6 text-right secc-hd-2">
+                    <p>Prueba</p>
+                </div>
+            </div>
+        </section>
+        <!-- inicio barra progreso -->
+        <div class="titulo-step text-center">
+            <p>Anexo A Identificaci&oacute;n y Conocimiento del Cliente (Persona F&iacute;sica)</p>
+        </div>
+        <section class="stepwizard">
+            <div class="stepwizard-row setup-panel">
+                <div class="stepwizard-step">
+                    <div id="sec1" class="ln-izq-1">
+                        <div class="ln-der-1">
+                            <a href="#"><i class="icono-1"></i>
+                                <span class="ce-1 circulo-ext-inact">
+                                    <span class="ci-1 circulo-int-inact">i</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <p>Paso 1</p>
+                </div>
+
+
+                <div class="stepwizard-step">
+                    <div id="sec2" class="ln-izq-2">
+                        <div class="ln-der-2">
+                            <a href="#"><i class="icono-2"></i>
+                                <span class="ce-2 circulo-ext-inact">
+                                    <span class="ci-2 circulo-int-inact">i</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Paso 2</p>
+                </div>
+                <div class="stepwizard-step">
+                    <div id="sec3" class="ln-izq-3">
+                        <div class="ln-der-3">
+                            <a href="#"><i class="icono-3"></i>
+                                <span class="ce-3 circulo-ext-inact">
+                                    <span class="ci-3 circulo-int-inact">i</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Paso 3</p>
+                </div>
+                <div class="stepwizard-step">
+                    <div id="sec4" class="ln-izq-4">
+                        <div class="ln-der-4">
+                            <a href="#"><i class="icono-4"></i>
+                                <span class="ce-4 circulo-ext-inact">
+                                    <span class="ci-4 circulo-int-inact">i</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Paso 4</p>
+                </div>
+                <div class="stepwizard-step">
+                    <div id="sec5" class="ln-izq-5">
+                        <div class="ln-der-5">
+                            <a href="#"><i class="icono-5"></i>
+                                <span class="ce-5 circulo-ext-inact">
+                                    <span class="ci-5 circulo-int-inact">i</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Paso 5</p>
+                </div>
+                <div class="stepwizard-step">
+                    <div id="sec6" class="ln-izq-6">
+                        <div class="ln-der-6">
+                            <a href="#"><i class="icono-6"></i>
+                                <span class="ce-6 circulo-ext-inact">
+                                    <span class="ci-6 circulo-int-inact">i</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Paso 6</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- fin barra progreso -->
+        <!-- formulario 1 -->
+        <section>
+            <form id="formDatosNegocio" method="POST" autocomplete="off">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 d-flex justify-content-between">
+                                <div class="btn btn-link">
+                                    2. Datos del Negocio
+                                </div>
+                                <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne" id="desplegar">
+                                    <img class="u-w-iconos" id="imgRot" src="resources/images/desplegable.png"
+                                        alt="desplegable abajo">
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="nombreEmpresa">Nombre de la empresa
+                                            o Negocio <span>*</span></label>
+                                        <input type="text" class="form-control" id="nombreEmpresa"
+                                            name="nombreEmpresa" />
+                                    </div>
+                                    <div class="form-group col-md-6 col-xs-12">
+                                        <label for="giro">Giro Mercantil o Actividad<span>*</span></label>
+                                        <select class="form-control" id="giro" name="giro" >
+                                                <option disabled selected="selected">Seleccciona</option>
+                                                <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="calle">Calle:<span>*</span></label>
+                                        <input type="text" class="form-control" id="calle" name="calle" />
+                                    </div>
+                                    <div class="col-md-3 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="noExterior">No.
+                                            Exterior:<span>*</span></label>
+                                        <input type="text" class="form-control" id="noExterior" name="noExterior" />
+                                    </div>
+                                    <div class="col-md-3 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="noInterior">No.
+                                            Interior:<span>*</span></label>
+                                        <input type="text" class="form-control" id="noInterior" name="noInterior" />
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label"
+                                            for="colonia">Colonia:<span>*</span></label>
+                                        <input type="text" class="form-control" id="colonia" name="colonia" />
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="delegacion">Delegación
+                                            <span>*</span></label>
+                                        <input type="text" class="form-control" id="delegacion" name="delegacion" />
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="municipio">Municipio
+                                            <span>*</span></label>
+                                        <input type="text" class="form-control" id="municipio" name="municipio" />
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="ciudad">Ciudad
+                                            <span>*</span></label>
+                                        <input type="text" class="form-control" id="ciudad" name="ciudad" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="poblacion">Población:<span>*</label>
+                                        <input type="text" class="form-control" id="poblacion" name="poblacion" />
+                                    </div>
+                                    <div class="form-group col-md-4 col-xs-12">
+                                        <label for="pais">País:<span>*</span></label>
+                                        <select class="form-control" id="pais" name="pais" >
+                                            <option disabled selected="selected">Seleccciona</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4 col-xs-12">
+                                        <label for="entidad">Entidad Federativa:<span>*</span></label>
+                                        <select class="form-control" id="entidad" name="entidad" >
+                                            <option disabled selected="selected">Seleccciona</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="cp">C.P. <span>*</span></label>
+                                        <input type="text" class="form-control" id="cp" name="cp" />
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="telefonoNegocio">Telefono del
+                                            Negocio</label>
+                                        <input type="text" class="form-control" id="telefonoNegocio"
+                                            name="telefonoNegocio" />
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 form-group pb-3 d-flex flex-column">
+                                        <label>Tamaño del Negocio <span>*</span></label>
+                                        <div class="d-fex flex-row">
+                                            <label class="radio-inline mr-3"><input type="radio" name="tamanioNegocio"
+                                                    >Pequeño</label>
+                                            <label class="radio-inline mr-3"><input type="radio"
+                                                    name="tamanioNegocio">Mediano</label>
+                                            <label class="radio-inline"><input type="radio"
+                                                    name="tamanioNegocio mr-3">Grande</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-xs-12 form-group pb-3 d-flex flex-column">
+                                        <label>Dias de trabajo a la semana <span>*</span></label>
+                                        <div class="d-flex flex-row">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" name="diasTrabajo"
+                                                    value="lunes">
+                                                <label class="form-check-label" for="lunes">Lunes</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" name="diasTrabajo"
+                                                    value="martes">
+                                                <label class="form-check-label" for="martes">Martes</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" name="diasTrabajo"
+                                                    value="miercoles">
+                                                <label class="form-check-label" for="miercoles">Miercoles</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" name="diasTrabajo"
+                                                    value="jueves">
+                                                <label class="form-check-label" for="jueves">Jueves</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" name="diasTrabajo"
+                                                    value="viernes">
+                                                <label class="form-check-label" for="viernes">Viernes</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-4 col-xs-12">
+                                        <label for="entreSemana">Horario de atención entre semana <span>*</span></label>
+                                        <select class="form-control" id="entreSemana" name="entreSemana" multiple="multiple">
+                                                <option >1</option>
+                                                <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4 col-xs-12">
+                                        <label for="finSemana">Horario de atención en fines de semana
+                                            <span>*</span></label>
+                                        <select class="form-control" id="finSemana" name="finSemana" multiple="multiple">
+                                                <option >1</option>
+                                                <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="sitioWeb">Sitio
+                                            WEB <small>(En caso de que cuente con él)</small></label>
+                                        <input type="text" class="form-control" id="sitioWeb" name="sitioWeb" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="cPromedioDia">Clientes promedio al
+                                            dia <span>*</span></label>
+                                        <input type="text" class="form-control" id="cPromedioDia" name="cPromedioDia" />
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label for="cVentasDia">Ventas promedio por cliente <small>(al
+                                                dia)($)</small> <span>*</span></label>
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">$</div>
+                                            </div>
+                                            <input type="text" class="form-control" id="cVentasDia" name="cVentasDia">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 form-group pb-3">
+                                        <label class="col-sm-12 control-label" for="antiguedad">Antiguedad
+                                            <span>*</span></label>
+                                        <input type="text" class="form-control" id="antiguedad" name="antiguedad" />
+                                    </div>
+                                </div>
+
+
+                                <div class="d-flex flex-row justify-content-end mt-botones">
+                                    <div class="form-group pb-3 ">
+                                        <button class="btn btn-primary" type="submit">Guardar</button>
+                                        <button class="btn btn-primary" type="button">Siguiente</button>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </section>
+
+        <!-- fin -->
+    </div>
+
+
+</body>
+<!-- footer -->
+<footer class="footer">
+</footer>
+<script src="resources/assets/jquery/jquery_1.12.4.js"></script>
+<script src="resources/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="resources/assets/bValidator/js/bootstrapValidator.js"></script>
+<script src="resources/assets/multiple-select/multiple-select.js"></script>
+<script src="resources/js/barraProgreso.js"></script>
+<script src="resources/js/datosNegocio.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<!-- Latest compiled and minified JavaScript -->
+
+</html>
