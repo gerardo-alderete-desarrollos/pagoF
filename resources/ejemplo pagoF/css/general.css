@@ -1,0 +1,76 @@
+.btn-primary {
+    color: #fff !important;
+    background-color: #E5067D !important;
+    border-color: #E5067D !important;
+    padding: 5px 20px;
+    border-radius: inherit;
+}
+
+/*Logo*/
+.logo {
+    width: 200px !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .secc-hd-2{
+        display: none;
+    }
+}
+
+.content-login{
+    padding-top: 8%; 
+}
+/*Collapse*/
+.card-header {
+    padding: 5px;
+    margin-bottom: 0;
+    background-color: #019b97 !important;
+    border-bottom: 1px solid #019b97 !important;
+}
+.btn-link {
+    font-weight: 400;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.btn-link:hover {
+    color: #e6007e;
+    text-decoration: none !important;
+    background-color: transparent;
+    border-color: transparent;
+}
+.card {
+    border: none !important;
+}
+.card-header:first-child {
+    border-radius: 0px !important;
+}
+
+/* CAMBIOS GERARDO */
+.mt-botones {
+    margin-top: 12rem!important;
+}
+
+label span {
+    padding-left: 6px;
+    color: red;
+    font-weight: bold;
+
+}
+.FlechaDown-css{
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	display:block;
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2)
+}
+
+.u-w-iconos {
+    width: 1.9rem;
+}
+
+
+.noresize{
+  resize: none;
+}
